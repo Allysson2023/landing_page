@@ -52,9 +52,10 @@ a {
     color: rgb(30, 0, 255);
 }
 .conteiner { 
-    background-image: url('../img/intro.svg');
+    /* background-image: url('../img/intro.svg');
     background-size: cover;
-    background-position: center center;
+    background-position: center center; */
+    background: rgb(82, 90, 230);
 }
 
 .white-bg {
