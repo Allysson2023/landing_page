@@ -129,6 +129,9 @@ a {
     height: 5rem;
 }
 
+.img-logo{
+    width: 12rem;
+}
 .intro-content {
     position: relative;
     display: grid;
@@ -149,7 +152,7 @@ a {
 
 .intro-img img{
     margin-top: 2rem;
-    max-width: 100%;
+    max-width: 30rem;
     height: auto;
 }
 .top3-content {
@@ -187,7 +190,7 @@ a {
     padding-bottom: 2rem;
 }
 .grid  p:hover {
-    color: #ffffff;
+    color: #211f1f;
 }
 .grid h3::before {
     counter-increment: grid-counter;
@@ -202,16 +205,16 @@ a {
 
 .gallery-img {
     width: 100%;
-    max-width: 36rem;
-    max-height: 36rem;
+    max-width: 600rem;
+    max-height: 250rem;
     overflow: hidden;
 }
-.gallery-img img {
+/* .gallery-img img {
     transition: all 300ms ease-in-out;
 }
 .gallery-img img:hover {
     transform:translate(-3%, 3%) scale(1.2) rotate(5deg);
-}
+} */
 
 .responsive-table {
     overflow: hidden;
@@ -302,16 +305,35 @@ body .full-whidth {
 .footer {
     text-align: center;
     text-transform: uppercase;
+    background: black;
 }
 .footer p {
     margin: 0;
     padding: 3rem;
+    color: white;
 }
 .close-menu {
     display: none;
 }
 
-.back-to-top {
+/* .back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: white;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: rgb(22, 22, 22);
+    border: 0.3rem solid red;
+} */
+.cor-perguntas {
+    background: whitesmoke;
+}
+.back-whatsapp {
     position: fixed;
     bottom: 2rem;
     right: 2rem;
@@ -325,10 +347,26 @@ body .full-whidth {
     color: rgb(22, 22, 22);
     border: 0.3rem solid red;
 }
-
+.back-whatsapp img {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: white;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: rgb(22, 22, 22);
+    border: 0.3rem solid red;
+}
 @media (max-width: 60rem) {
     .intro-content, .grid {
         grid-template-columns: 1fr;
+    }
+    .intro-img img {
+        width: 100%;
     }
     .gallery-img {
         width: 100%;
