@@ -330,10 +330,10 @@ body .full-whidth {
     color: rgb(22, 22, 22);
     border: 0.3rem solid red;
 } */
-.cor-perguntas {
+/* .cor-perguntas {
     background: whitesmoke;
-}
-.back-whatsapp {
+} */
+/* .back-whatsapp {
     position: fixed;
     bottom: 2rem;
     right: 2rem;
@@ -346,14 +346,14 @@ body .full-whidth {
     border-radius: 50%;
     color: rgb(22, 22, 22);
     border: 0.3rem solid red;
-}
+} */
 .back-whatsapp img {
     position: fixed;
     bottom: 2rem;
     right: 2rem;
     background: white;
-    width: 5rem;
-    height: 5rem;
+    width: 10rem;
+    height: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
