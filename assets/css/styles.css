@@ -9,7 +9,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif, ;
     font-size: 2rem;
     line-height: 1.5;
 }
@@ -31,22 +31,7 @@ h2 {
 p{
     margin-bottom: 2rem;
 }
-    /* 
-h3 {
-    font-size: 3.6rem;
-}
 
-h4 {
-    font-size: 3rem;
-}
-
-h5 {
-    font-size: 2.4rem;
-}
-
-h6 {
-    font-size: 2rem;
-} */
 a {
     text-decoration: none;
     color: rgb(30, 0, 255);
@@ -132,6 +117,7 @@ a {
 
 .img-logo{
     width: 12rem;
+    border-radius: 50%;
 }
 .intro-content {
     position: relative;
@@ -210,12 +196,6 @@ a {
     max-height: 250rem;
     overflow: hidden;
 }
-/* .gallery-img img {
-    transition: all 300ms ease-in-out;
-}
-.gallery-img img:hover {
-    transform:translate(-3%, 3%) scale(1.2) rotate(5deg);
-} */
 
 .responsive-table {
     overflow: hidden;
@@ -230,7 +210,7 @@ table {
 }
 table caption {
     font-style: italic;
-    font-size: 1.6rem;
+    font-size: 5rem;
     text-align: left;
     margin-bottom: 1rem;
 }
@@ -318,37 +298,6 @@ body .full-whidth {
     display: none;
 }
 
-/* .back-to-top {
-    position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    background: white;
-    width: 5rem;
-    height: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    color: rgb(22, 22, 22);
-    border: 0.3rem solid red;
-} */
-/* .cor-perguntas {
-    background: whitesmoke;
-} */
-/* .back-whatsapp {
-    position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    background: white;
-    width: 5rem;
-    height: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    color: rgb(22, 22, 22);
-    border: 0.3rem solid red;
-} */
 .back-whatsapp img {
     position: fixed;
     bottom: 2rem;
@@ -363,7 +312,13 @@ body .full-whidth {
     color: rgb(22, 22, 22);
     border: 0.3rem solid red;
 }
+.back-whatsapp img:hover {
+    width: 11rem;
+    height: 11rem;
+    border: 0.8rem solid rgb(0, 121, 16);
+}
 @media (max-width: 60rem) {
+    
     .intro-content, .grid {
         grid-template-columns: 1fr;
     }
@@ -417,6 +372,7 @@ body .full-whidth {
     }
     .close-menu:checked~.close-menu-label::after {
         content: 'X';
+        color: #ff0000;
     }
     .menu-spancing {
         display: none;
