@@ -223,7 +223,8 @@ a {
 }
 
 table {
-    min-width: 36re;
+    min-width: 36rem;
+    height: 35rem;
     width: 100%;
     border-collapse: collapse;
 }
