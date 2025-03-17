@@ -28,6 +28,10 @@ h2 {
     text-transform: uppercase;
     line-height: 1.2;
 }
+h2:hover {
+    font-size: 5.1rem;
+    
+}
 p{
     margin-bottom: 2rem;
 }
@@ -36,11 +40,14 @@ a {
     text-decoration: none;
     color: rgb(30, 0, 255);
 }
+img:hover {
+    border: #ff0000 solid 0.1rem;
+}
 .conteiner { 
     /* background-image: url('../img/intro.svg');
     background-size: cover;
     background-position: center center; */
-    background: rgb(82, 90, 230);
+    background:linear-gradient(to right, rgb(92, 113, 204), rgb(24, 0, 245));
 }
 
 .white-bg {
